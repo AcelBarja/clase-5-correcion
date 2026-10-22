@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/japon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Taller Mecánico Osaka | Inicio</title>
 </head>
@@ -99,7 +99,6 @@
                 </button>
             </div>
         </section>
-        <!-- Ubicación -->
         <section class="my-5 text-center">
             <h2 class="stylenavp">Dónde Encontrarnos</h2>
             <p class="stylenavp">Estamos ubicados en Caballito</p>
@@ -108,7 +107,6 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8967916960767!2d-58.448493123497475!3d-34.60677565765955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca126f536767%3A0xb35ec963e6e872c5!2sGral.%20Mart%C3%ADn%20de%20Gainza%20802%2C%20C1405AKP%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1758064432130!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación de Osaka Mechanic"></iframe>
             </div>
         </section>
-        <section class="productos-seccion-index py-5">
             <div class="container">
                 <h2 class="styleandcolorandtypographimain text-center mb-4">Productos Más Comprados</h2>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-center">
@@ -116,8 +114,8 @@
                         <article class="card h-100 bg-dark text-light border-danger">
                             <img src="./assets/amortiguador.jpg" class="card-img-top imagen-producto-card" alt="Juego de amortiguadores delanteros marca Sachs">
                             <div class="card-body d-flex flex-column justify-content-between text-center">
-                                <h3 class="card-title h5">Amortiguadores Sachs</h3>
-                                <p class="card-text text-secondary small">Máxima estabilidad y confort de marcha.</p>
+                                <h3 class="h5 card-title stylenavp text-light">Amortiguadores Sachs</h3>
+                                <p class="card-text text-secondary small">Suspensión de alto confort y rendimiento.</p>
                             </div>
                         </article>
                     </div>
@@ -125,8 +123,8 @@
                         <article class="card h-100 bg-dark text-light border-danger">
                             <img src="./assets/aceite.jpg" class="card-img-top imagen-producto-card" alt="Aceite lubricante para motor Shell Helix">
                             <div class="card-body d-flex flex-column justify-content-between text-center">
-                                <h3 class="card-title h5">Aceite Para Motor Shell</h3>
-                                <p class="card-text text-secondary small">Protección contra el desgaste térmico.</p>
+                                <h3 class="h5 card-title stylenavp text-light">Aceite Motor Shell</h3>
+                                <p class="card-text text-secondary small">Protección sintética contra el desgaste.</p>
                             </div>
                         </article>
                     </div>
@@ -134,8 +132,8 @@
                         <article class="card h-100 bg-dark text-light border-danger">
                             <img src="./assets/refrigerante.jpg" class="card-img-top imagen-producto-card" alt="Líquido refrigerante y anticongelante para radiador">
                             <div class="card-body d-flex flex-column justify-content-between text-center">
-                                <h3 class="card-title h5">Líquido Refrigerante</h3>
-                                <p class="card-text text-secondary small">Control de temperatura y anticorrosión.</p>
+                                <h3 class="h5 card-title stylenavp text-light">Líquido Refrigerante</h3>
+                                <p class="card-text text-secondary small">Control térmico y anticorrosivo para radiador.</p>
                             </div>
                         </article>
                     </div>
@@ -143,8 +141,8 @@
                         <article class="card h-100 bg-dark text-light border-danger">
                             <img src="./assets/limpia parabrisa.jpg" class="card-img-top imagen-producto-card" alt="Escobillas limpiaparabrisas universales">
                             <div class="card-body d-flex flex-column justify-content-between text-center">
-                                <h3 class="card-title h5">Limpiaparabrisas</h3>
-                                <p class="card-text text-secondary small">Visibilidad total bajo cualquier lluvia.</p>
+                                <h3 class="h5 card-title stylenavp text-light">Limpiaparabrisas</h3>
+                                <p class="card-text text-secondary small">Barrido limpio y silencioso para días de lluvia.</p>
                             </div>
                         </article>
                     </div>
@@ -152,15 +150,14 @@
             </div>
         </section>
     </main>
-    <footer class="py-4 text-center">  
-        <p class="stylenavp mb-2">2026 Osaka Mechanic. Todos los derechos reservados. | [Política de Privacidad] | [Términos y Condiciones]</p>
-        <div class="stylenewslater fw-bold">Newsletter</div>
-        <form class="d-flex justify-content-center align-items-center gap-2 mt-2">
-            <label for="emailnewsletter" class="stylenewslater m-0">Dejanos tu email:</label>
-            <input type="email" id="emailnewsletter" class="form-control form-control-sm w-auto" placeholder="nombre@correo.com">
-            <button type="submit" class="btn btn-danger btn-sm">Suscribirme</button>
+    <footer>  
+        <p class="stylenavp">2026 Taller Mecánico Osaka. Todos los derechos reservados. | [Política de Privacidad] | [Términos y Condiciones]</p>
+        <div class="stylenewslater text-center">newsletter</div>
+        <form action="" class="text-center my-2">
+            <label for="emailnewsletter" class="stylenewslater me-2">Dejanos tu email:</label>
+            <input type="email" name="email" id="emailnewsletter">
         </form>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForbpaikpbgxskk+FkptkPsmfskpGsmvK+dEPrvVvP9P+FvP+F+PvPsmfak" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
